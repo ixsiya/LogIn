@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
+    background-color: #ecf0f3;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 600px;
+    position: relative;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.Brand-title{
+    font-weight: 900px;
+    font-size: 40px;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+.Inputs{
+    text-align: center;
+    margin-top: 0px;
+}
+input::placeholder{
+    color: gray;
+}
+label,Input,button{
+    width: 100%;
+    border:none;
+    outline:none;
+    font-size: 20px;
+}
+input{
+    width:300px;
+    background:#ecf0f3;
+    height:50px;
+    font-size:14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+button{
+    width:330px;
+    margin-top: 50px;
+    background-color: #1DA1F2;
+    height:40px;
+    border-radius: 20px;
+    font-weight: 900;
+    box-shadow:6px 6px 6px #cbced1, -6px -6px 6px white;
+
+}
+button:hover{
+    box-shadow:none;
+}
